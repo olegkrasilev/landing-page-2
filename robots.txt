@@ -1,0 +1,6 @@
+# Разрешаем всем роботам индексировать сайт
+User-agent: *
+Allow: /
+
+# Указываем местоположение карты сайта
+Sitemap: https://www.example.com/sitemap.xml

@@ -1,0 +1,650 @@
+<!DOCTYPE html><html lang="ru" class="page" dir="ltr"><head><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-1234567890"></script><script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-1234567890");</script><!-- Google Analytics --><link rel="preload" as="image" fetchpriority="high" href="./img/hero.webp"><!-- Основные настройки страницы --><meta charset="UTF-8"><!-- Кодировка UTF-8 --><meta name="viewport" content="width=device-width,initial-scale=1"><!-- Адаптивность для мобильных --><meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Совместимость с IE --><meta name="theme-color" content="#111111"><!-- Цвет адресной строки на мобильных --><!-- Название страницы --><title>Психолог в Минске и онлайн | Консультации при тревоге и стрессе</title><!-- SEO --><meta name="description" content="Онлайн и оффлайн консультации психолога в Минске. Помощь при тревоге, стрессе, выгорании. Запишитесь на первую консультацию."><!-- Для поисковых систем --><meta name="keywords" content="ключевое слово1, ключевое слово2, ключевое слово3"><!-- Опционально, ключевые слова --><meta name="robots" content="index, follow"><!-- Разрешение индексирования --><!-- Open Graph (соцсети: Facebook, VK, Telegram и др.) --><meta property="og:title" content="Название лендинга"><!-- Заголовок для соцсетей --><meta property="og:description" content="Краткое описание для соцсетей"><!-- Описание для соцсетей --><meta property="og:image" content="https://site.com/og-image.jpg"><!-- Превью изображение --><meta property="og:url" content="https://site.com"><!-- URL страницы --><meta property="og:type" content="website"><!-- Тип объекта --><!-- Twitter Cards --><meta name="twitter:card" content="summary_large_image"><!-- Тип карточки --><meta name="twitter:title" content="Название лендинга"><!-- Заголовок для Twitter --><meta name="twitter:description" content="Краткое описание для Twitter"><!-- Описание для Twitter --><meta name="twitter:image" content="https://site.com/twitter-image.jpg"><!-- Превью изображение --><meta name="twitter:site" content="@ваш_твиттер"><!-- Аккаунт Twitter --><!-- Favicon и иконки --><link rel="icon" href="/favicon.ico" type="image/x-icon"><!-- Иконка для браузера --><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><!-- Иконка для iOS --><!-- Производительность и безопасность --><meta http-equiv="Content-Security-Policy" content="
+"><!-- Политика безопасности --><style>*,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: system-ui, sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  body {
+    line-height: 1.5;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  /* Lenis CSS */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis:not(.lenis-autoToggle).lenis-stopped {
+    overflow: clip;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-smooth iframe {
+    pointer-events: none;
+  }
+
+  .lenis.lenis-autoToggle {
+    transition-property: overflow;
+    transition-duration: 1ms;
+    transition-behavior: allow-discrete;
+  }
+  /* Lenis CSS */
+
+  /* Hero CSS */
+  .hero {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    min-height: 100vh;
+    color: white;
+    background-image: linear-gradient(rgba(5, 5, 101, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./img/hero.webp");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: 10s linear infinite alternate moveBackground;
+  }
+
+  @keyframes moveBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 100%;
+    }
+  }
+
+  .hero__content {
+    max-width: 800px;
+  }
+
+  .hero__title {
+    font-size: 3.7em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 16px;
+  }
+
+  .hero__text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 32px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .btn--icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .btn-primary {
+    background: #7d44ec;
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    background: #9c6cff;
+    transform: translateY(-2px);
+  }
+
+  @keyframes fadeInSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hero__title {
+    animation: fadeInSlideUp 0.8s ease-out forwards;
+  }
+
+  .hero__text {
+    animation: fadeInSlideUp 0.8s ease-out 0.2s forwards;
+  }
+
+  .hero__btn {
+    animation: fadeInSlideUp 0.8s ease-out 0.4s forwards;
+  }
+
+  .hero__title,
+  .hero__text,
+  .hero__btn {
+    opacity: 0;
+  }
+
+  /* Hero CSS */</style><link rel="preload" href="css/vendor.css" as="style" onload="this.rel='stylesheet'"><link rel="preload" href="css/main.css" as="style" onload="this.rel='stylesheet'"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"><script defer="defer" src="js/main.js"></script><!-- Google Console --><meta name="google-site-verification" content="ваша_уникальная_строка_кода_которую_даст_гугл"><!-- Google Console --><link rel="canonical" href="https://example.com/promo-landing"></head><body class="page__body"><div class="site-container"><header class="header"><div class="container"></div></header><main class="main"><section class="hero"><div class="container"><div class="hero__content"><h1 class="hero__title">Психолог в Минске и онлайн</h1><p class="hero__text">Консультации при тревоге, стрессе и выгорании</p><a href="/signup" class="hero__btn btn btn-primary btn--icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 10H21M7 3V5M17 3V5M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg> <span>Записаться на консультацию психолога</span></a></div></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Психолог в Минске",
+    "image": "URL-вашего-фото-психолога.jpg",
+    "url": "URL-вашего-сайта",
+    "description": "Консультации при тревоге, стрессе и выгорании. Помощь в решении проблем с отношениями и эмоциональных трудностей.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Минск",
+      "addressCountry": "BY"
+    },
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "name": "Записаться на консультацию",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "/signup"
+      }
+    }
+  }</script><section class="section section-light"><div class="container"><div class="about-me__content"><div class="about-me__image-wrapper"><img src="./img/human.jpg" alt="Психолог и психотерапевт в Минске" class="about-me__image" fetchpriority="low" decoding="async" loading="lazy" width="300" height="300"></div><div class="about-me__text-wrapper"><h2 class="h2 text-color-primary-light">Обо мне — психолог и психотерапевт</h2><p class="h4 text-color-primary-light">Меня зовут [Ваше Имя]</p><p class="text-main text-color-secondary-light">Я [Ваше Имя], психолог и психотерапевт в Минске и онлайн. Помогаю людям справляться с тревогой, стрессом, выгоранием, проблемами в отношениях и эмоциональными трудностями. Мой подход основан на внимательном и бережном отношении, совместном поиске решений и создании безопасного пространства для роста и исцеления. Вместе мы найдём внутренний покой и научимся справляться с вызовами.</p><div class="button-container text-left"><a href="#services" class="btn btn-primary">Подробнее о моих услугах</a></div></div></div></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "[Ваше Имя]",
+    "jobTitle": "Психолог и психотерапевт",
+    "image": "./img/human.jpg",
+    "description": "Я [Ваше Имя], психолог и психотерапевт в Минске и онлайн. Помогаю людям справляться с тревогой, стрессом, выгоранием, проблемами в отношениях и эмоциональными трудностями. Мой подход основан на внимательном и бережном отношении, совместном поиске решений и создании безопасного пространства для роста и исцеления. Вместе мы найдём внутренний покой и научимся справляться с вызовами.",
+    "knowsAbout": [
+      "Тревога",
+      "Стресс",
+      "Выгорание",
+      "Проблемы в отношениях",
+      "Эмоциональные трудности"
+    ],
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "URL-вашей-страницы-с-услугами"
+    },
+    "url": "URL-вашего-сайта"
+  }</script><section class="section section-black pain-points"><div class="container"><h2 class="pain-points__heading text-center h2">С какими переживаниями помогает справиться психолог?</h2><ul class="pain-points__list grid grid-cols-3 md-grid-cols-2 xs-grid-cols-1 gap-24"><li class="pain-points__item card card--dark"><div class="pain-points__icon-wrapper icon-wrapper"><i class="fa-solid fa-user-lock pain-points__icon icon"></i></div><h3 class="pain-points__title card__title">Неуверенность в себе</h3><p class="pain-points__text card__text">Помогаю восстановить уверенность, доверие к себе и своим решениям.</p></li><li class="pain-points__item card card--dark"><div class="pain-points__icon-wrapper icon-wrapper"><i class="fa-solid fa-person-circle-exclamation pain-points__icon"></i></div><h3 class="pain-points__title card__title">Одиночество и непонимание</h3><p class="pain-points__text card__text">Поддержка при чувстве одиночества и невозможности быть понятым.</p></li><li class="pain-points__item card card--dark"><div class="pain-points__icon-wrapper icon-wrapper"><i class="fa-solid fa-head-side-virus pain-points__icon"></i></div><h3 class="pain-points__title card__title">Бесконечная тревога</h3><p class="pain-points__text card__text">Работаем с тревогой, стрессом и паническими состояниями.</p></li><li class="pain-points__item card card--dark"><div class="pain-points__icon-wrapper icon-wrapper"><i class="fa-solid fa-ghost pain-points__icon"></i></div><h3 class="pain-points__title card__title">Тяжёлые воспоминания</h3><p class="pain-points__text card__text">Прорабатываем травмы и прошлые события, мешающие жить.</p></li><li class="pain-points__item card card--dark"><div class="pain-points__icon-wrapper icon-wrapper"><i class="fa-solid fa-user-group pain-points__icon"></i></div><h3 class="pain-points__title card__title">Сложности в отношениях</h3><p class="pain-points__text card__text">Помогаю наладить контакт с близкими и понять себя.</p></li><li class="pain-points__item card card--dark"><div class="pain-points__icon-wrapper icon-wrapper"><i class="fa-solid fa-hand-fist pain-points__icon"></i></div><h3 class="pain-points__title card__title">Потеря контроля</h3><p class="pain-points__text card__text">Обучаю управлению эмоциями и снятию внутреннего напряжения.</p></li><li class="pain-points__item card card--dark"><div class="pain-points__icon-wrapper icon-wrapper"><i class="fa-solid fa-face-sad-cry pain-points__icon"></i></div><h3 class="pain-points__title card__title">Низкая самооценка</h3><p class="pain-points__text card__text">Работаем над принятием себя и повышением самооценки.</p></li><li class="pain-points__item card card--dark"><div class="pain-points__icon-wrapper icon-wrapper"><i class="fa-solid fa-road-barrier pain-points__icon"></i></div><h3 class="pain-points__title card__title">Чувство тупика</h3><p class="pain-points__text card__text">Помогаю найти путь вперёд и вернуть внутреннюю ясность.</p></li><li class="pain-points__item card card--dark"><div class="pain-points__icon-wrapper icon-wrapper"><i class="fa-solid fa-arrows-spin pain-points__icon"></i></div><h3 class="pain-points__title card__title">Ощущение «дня сурка»</h3><p class="pain-points__text card__text">Преодолеваем рутины и возвращаем смысл и энергию в жизнь.</p></li></ul><div class="button-container"><a href="/signup" class="btn btn-primary">Записаться на консультацию психолога</a></div></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "С какими переживаниями помогает справиться психолог?",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Неуверенность в себе",
+        "description": "Помогаю восстановить уверенность, доверие к себе и своим решениям."
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Одиночество и непонимание",
+        "description": "Поддержка при чувстве одиночества и невозможности быть понятым."
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Бесконечная тревога",
+        "description": "Работаем с тревогой, стрессом и паническими состояниями."
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Тяжёлые воспоминания",
+        "description": "Прорабатываем травмы и прошлые события, мешающие жить."
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Сложности в отношениях",
+        "description": "Помогаю наладить контакт с близкими и понять себя."
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Потеря контроля",
+        "description": "Обучаю управлению эмоциями и снятию внутреннего напряжения."
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Низкая самооценка",
+        "description": "Работаем над принятием себя и повышением самооценки."
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Чувство тупика",
+        "description": "Помогаю найти путь вперёд и вернуть внутреннюю ясность."
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Ощущение \"дня сурка\"",
+        "description": "Преодолеваем рутины и возвращаем смысл и энергию в жизнь."
+      }
+    ]
+  }</script><section class="features section section-light"><div class="container"><h2 class="features__heading text-center h2">Как психотерапия и консультации психолога изменят вашу жизнь</h2><ul class="features__list grid grid-cols-3 md-grid-cols-2 xs-grid-cols-1 gap-24"><li class="features__item card card--light"><div class="features__icon-wrapper icon-wrapper"><i class="fa-solid fa-seedling features__icon icon"></i></div><h3 class="features__title card__title">Личностный рост</h3><p class="features__text card__text">Мы исследуем ваши сильные стороны и ресурсы, чтобы вы могли развиваться и становиться лучшей версией себя.</p></li><li class="features__item card card--light"><div class="features__icon-wrapper icon-wrapper"><i class="fa-solid fa-hand-holding-heart features__icon icon"></i></div><h3 class="features__title card__title">Безусловная поддержка</h3><p class="features__text card__text">Безопасное пространство для ваших чувств и мыслей, где вы получите поддержку психолога без осуждения.</p></li><li class="features__item card card--light"><div class="features__icon-wrapper icon-wrapper"><i class="fa-solid fa-brain features__icon icon"></i></div><h3 class="features__title card__title">Ясность и осознанность</h3><p class="features__text card__text">Психолог помогает разобраться в причинах тревоги и стресса, находить ответы на важные вопросы.</p></li><li class="features__item card card--light"><div class="features__icon-wrapper icon-wrapper"><i class="fa-solid fa-heart-crack features__icon icon"></i></div><h3 class="features__title card__title">Исцеление от боли</h3><p class="features__text card__text">Работаем с травмами и болезненными воспоминаниями, освобождаясь от их тяжести.</p></li><li class="features__item card card--light"><div class="features__icon-wrapper icon-wrapper"><i class="fa-solid fa-users features__icon icon"></i></div><h3 class="features__title card__title">Улучшение отношений</h3><p class="features__text card__text">Научитесь строить гармоничные отношения с собой и окружающими на доверии и уважении.</p></li><li class="features__item card card--light"><div class="features__icon-wrapper icon-wrapper"><i class="fa-solid fa-toolbox features__icon icon"></i></div><h3 class="features__title card__title">Практические инструменты</h3><p class="features__text card__text">Конкретные техники для работы со стрессом, тревогой и сложными ситуациями.</p></li><li class="features__item card card--light"><div class="features__icon-wrapper icon-wrapper"><i class="fa-solid fa-shield-halved features__icon icon"></i></div><h3 class="features__title card__title">Рост уверенности</h3><p class="features__text card__text">Укрепляем самооценку и уверенность, чтобы смело идти к своим целям.</p></li><li class="features__item card card--light"><div class="features__icon-wrapper icon-wrapper"><i class="fa-solid fa-headset features__icon icon"></i></div><h3 class="features__title card__title">Поддержка онлайн</h3><p class="features__text card__text">Всегда на связи для консультаций и помощи при тревоге, стрессе и жизненных трудностях.</p></li><li class="features__item card card--light"><div class="features__icon-wrapper icon-wrapper"><i class="fa-solid fa-lightbulb features__icon icon"></i></div><h3 class="features__title card__title">Путь к светлому будущему</h3><p class="features__text card__text">Каждая сессия — шаг к жизни без тревоги, с ясными целями и внутренним балансом.</p></li></ul><div class="button-container"><a href="/signup" class="btn btn-primary">Записаться на консультацию психолога</a></div></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Как психотерапия и консультации психолога изменят вашу жизнь",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Личностный рост",
+        "description": "Мы исследуем ваши сильные стороны и ресурсы, чтобы вы могли развиваться и становиться лучшей версией себя."
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Безусловная поддержка",
+        "description": "Безопасное пространство для ваших чувств и мыслей, где вы получите поддержку психолога без осуждения."
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Ясность и осознанность",
+        "description": "Психолог помогает разобраться в причинах тревоги и стресса, находить ответы на важные вопросы."
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Исцеление от боли",
+        "description": "Работаем с травмами и болезненными воспоминаниями, освобождаясь от их тяжести."
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Улучшение отношений",
+        "description": "Научитесь строить гармоничные отношения с собой и окружающими на доверии и уважении."
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Практические инструменты",
+        "description": "Конкретные техники для работы со стрессом, тревогой и сложными ситуациями."
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Рост уверенности",
+        "description": "Укрепляем самооценку и уверенность, чтобы смело идти к своим целям."
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Поддержка онлайн",
+        "description": "Всегда на связи для консультаций и помощи при тревоге, стрессе и жизненных трудностях."
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Путь к светлому будущему",
+        "description": "Каждая сессия — шаг к жизни без тревоги, с ясными целями и внутренним балансом."
+      }
+    ]
+  }</script><section id="how-it-works" class="how-it-works section section-black"><div class="how-it-works__container container"><h2 class="how-it-works__heading h2 text-center">Как проходят консультации психолога</h2><ol class="how-it-works__steps"><li class="how-it-works__step"><div class="how-it-works__step-number">1</div><div class="how-it-works__step-content card card--dark"><h3 class="how-it-works__step-title card__title">15 минут — чтобы познакомиться</h3><p class="how-it-works__step-text card__text">Бесплатная 15-минутная встреча с психологом. Возможность понять, подходит ли вам специалист, рассказать о своих проблемах и получить рекомендации по дальнейшей работе.</p></div></li><li class="how-it-works__step"><div class="how-it-works__step-number">2</div><div class="how-it-works__step-content card card--dark"><h3 class="how-it-works__step-title card__title">Первая полноценная консультация</h3><p class="how-it-works__step-text card__text">На первой встрече психолог подробно обсудит ваш запрос, определит цели и вместе с вами наметит план работы для решения тревоги, стресса и эмоциональных трудностей.</p></div></li><li class="how-it-works__step"><div class="how-it-works__step-number">3</div><div class="how-it-works__step-content card card--dark"><h3 class="how-it-works__step-title card__title">Регулярные консультации</h3><p class="how-it-works__step-text card__text">Встречи с психологом с удобной периодичностью. Каждая сессия — безопасное пространство для обсуждения тревог, стресса и переживаний, где вы найдете опору и поддержку.</p></div></li><li class="how-it-works__step"><div class="how-it-works__step-number">4</div><div class="how-it-works__step-content card card--dark"><h3 class="how-it-works__step-title card__title">Достижение результатов</h3><p class="how-it-works__step-text card__text">Консультации психолога помогают преодолевать стресс и тревогу, находить внутренние ресурсы и видеть реальные изменения в жизни шаг за шагом.</p></div></li></ol><div class="button-container"><a href="/signup" class="btn btn-primary">Записаться на консультацию психолога</a></div></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Как проходят консультации психолога: пошаговый план",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "15 минут — чтобы познакомиться",
+        "description": "Бесплатная 15-минутная встреча с психологом. Возможность понять, подходит ли вам специалист, рассказать о своих проблемах и получить рекомендации по дальнейшей работе."
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Первая полноценная консультация",
+        "description": "На первой встрече психолог подробно обсудит ваш запрос, определит цели и вместе с вами наметит план работы для решения тревоги, стресса и эмоциональных трудностей."
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Регулярные консультации",
+        "description": "Встречи с психологом с удобной периодичностью. Каждая сессия — безопасное пространство для обсуждения тревог, стресса и переживаний, где вы найдете опору и поддержку."
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Достижение результатов",
+        "description": "Консультации психолога помогают преодолевать стресс и тревогу, находить внутренние ресурсы и видеть реальные изменения в жизни шаг за шагом."
+      }
+    ]
+  }</script><section class="principles section section-light"><div class="container"><h2 class="principles__heading h2 text-center">Основные принципы работы психолога</h2><ul class="principles__list grid grid-cols-3 md-grid-cols-2 xs-grid-cols-1 gap-24"><li class="principles__item card card--light"><div class="principles__icon-wrapper icon-wrapper"><i class="fas fa-lock principles__icon icon"></i></div><h3 class="principles__title card__title">Конфиденциальность консультаций психолога</h3><p class="principles__text card__text">Все сессии с психологом полностью конфиденциальны. Вы можете делиться своими переживаниями, тревогой и стрессом, не опасаясь осуждения.</p></li><li class="principles__item card card--light"><div class="principles__icon-wrapper icon-wrapper"><i class="fas fa-heart principles__icon icon"></i></div><h3 class="principles__title card__title">Безоценочное принятие</h3><p class="principles__text card__text">Психолог принимает вас со всеми эмоциями, мыслями и переживаниями. Без критики и советов, чтобы вы могли безопасно работать над тревогой, стрессом и внутренним ростом.</p></li><li class="principles__item card card--light"><div class="principles__icon-wrapper icon-wrapper"><i class="fas fa-hourglass-half principles__icon icon"></i></div><h3 class="principles__title card__title">Уважение к вашему темпу</h3><p class="principles__text card__text">Консультации психолога проходят в вашем темпе. Мы не форсируем события и учитываем ваши индивидуальные особенности, чтобы работа со стрессом и тревогой была комфортной и эффективной.</p></li></ul></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Принципы работы психолога",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Конфиденциальность консультаций психолога",
+        "description": "Все сессии с психологом полностью конфиденциальны. Вы можете делиться своими переживаниями, тревогой и стрессом, не опасаясь осуждения."
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Безоценочное принятие",
+        "description": "Психолог принимает вас со всеми эмоциями, мыслями и переживаниями. Без критики и советов, чтобы вы могли безопасно работать над тревогой, стрессом и внутренним ростом."
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Уважение к вашему темпу",
+        "description": "Консультации психолога проходят в вашем темпе. Мы не форсируем события и учитываем ваши индивидуальные особенности, чтобы работа со стрессом и тревогой была комфортной и эффективной."
+      }
+    ]
+  }</script><section class="case-studies section section-black"><div class="container"><h2 class="case-studies__heading h2 text-center">Реальные истории клиентов психолога</h2><ul class="case-studies__list"><li class="case-studies__item"><div><img src="https://placehold.co/600x400/333333/ffffff?text=Личностный+рост" alt="Психолог помогает преодолеть тревожность"><div class="case-studies__content"><h3>Преодоление тревожности и обретение спокойствия</h3><p>Клиентка, страдавшая от тревоги и панических атак, научилась управлять эмоциями, снизила стресс и вернула радость жизни благодаря консультациям психолога.</p><a class="btn btn-primary text-center" href="/cases/anxiety-recovery">Читать полную историю</a></div></div></li><li class="case-studies__item"><div><img src="https://placehold.co/600x400/333333/ffffff?text=Отношения" alt="Психолог помогает наладить отношения"><div class="case-studies__content"><h3>Налаживание отношений с близкими</h3><p>Психолог помог паре разобраться в конфликтах, построить доверительное общение и укрепить эмоциональную связь.</p><a class="btn btn-primary text-center" href="/cases/relationship-building">Читать полную историю</a></div></div></li><li class="case-studies__item"><div><img src="https://placehold.co/600x400/333333/ffffff?text=Уверенность" alt="Психолог помогает повысить самооценку"><div class="case-studies__content"><h3>Повышение самооценки и карьерный рост</h3><p>Клиентка, испытывавшая трудности с самооценкой, обрела уверенность в себе и достигла карьерных целей благодаря регулярным консультациям психолога.</p><a class="btn btn-primary text-center" href="/cases/self-esteem">Читать полную историю</a></div></div></li></ul></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Истории клиентов психолога",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Article",
+          "name": "Преодоление тревожности и обретение спокойствия",
+          "description": "Клиентка, страдавшая от тревоги и панических атак, научилась управлять эмоциями, снизила стресс и вернула радость жизни благодаря консультациям психолога.",
+          "url": "/cases/anxiety-recovery",
+          "image": "https://placehold.co/600x400/333333/ffffff?text=Личностный+рост",
+          "datePublished": "2024-11-15",
+          "about": {
+            "@type": "Thing",
+            "name": "Тревожность"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Article",
+          "name": "Налаживание отношений с близкими",
+          "description": "Психолог помог паре разобраться в конфликтах, построить доверительное общение и укрепить эмоциональную связь.",
+          "url": "/cases/relationship-building",
+          "image": "https://placehold.co/600x400/333333/ffffff?text=Отношения",
+          "datePublished": "2024-08-03",
+          "about": {
+            "@type": "Thing",
+            "name": "Семейные отношения"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Article",
+          "name": "Повышение самооценки и карьерный рост",
+          "description": "Клиентка, испытывавшая трудности с самооценкой, обрела уверенность в себе и достигла карьерных целей благодаря регулярным консультациям психолога.",
+          "url": "/cases/self-esteem",
+          "image": "https://placehold.co/600x400/333333/ffffff?text=Уверенность",
+          "datePublished": "2024-05-22",
+          "about": {
+            "@type": "Thing",
+            "name": "Самооценка"
+          }
+        }
+      }
+    ]
+  }</script><section class="reviews section section-dark"><div class="container"><h2 class="reviews__heading h2 text-center">Отзывы клиентов психолога</h2><div class="grid grid-cols-3 md-grid-cols-2 xs-grid-cols-1 gap-24"><article class="reviews__item"><h3 class="reviews__body">Мне удалось разобраться в себе и научиться принимать свои чувства. Сессии с психологом помогли снизить тревогу, обрести спокойствие и уверенность.</h3><strong class="reviews__author"><span>Клиент А</span></strong></article><article class="reviews__item"><h3 class="reviews__body">Благодаря регулярным консультациям психолога я смог увидеть ситуацию под другим углом, снизить стресс и найти силы двигаться дальше.</h3><strong class="reviews__author"><span>Клиент Б</span></strong></article><article class="reviews__item"><h3 class="reviews__body">Я впервые почувствовала, что меня слышат. Консультации психолога помогли справиться с тревогой, обрести внутреннюю опору и уверенность в себе.</h3><strong class="reviews__author"><span>Клиент В</span></strong></article></div></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Психологические консультации",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "3"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Клиент А"
+        },
+        "reviewBody": "Мне удалось разобраться в себе и научиться принимать свои чувства. Сессии с психологом помогли снизить тревогу, обрести спокойствие и уверенность.",
+        "datePublished": "2025-06-14",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Клиент Б"
+        },
+        "reviewBody": "Благодаря регулярным консультациям психолога я смог увидеть ситуацию под другим углом, снизить стресс и найти силы двигаться дальше.",
+        "datePublished": "2025-05-20",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Клиент В"
+        },
+        "reviewBody": "Я впервые почувствовала, что меня слышат. Консультации психолога помогли справиться с тревогой, обрести внутреннюю опору и уверенность в себе.",
+        "datePublished": "2025-04-10",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      }
+    ]
+  }</script><section id="certifications" class="certifications section section-black"><div class="container"><h2 class="certifications__heading h2 text-center">Моё образование и сертификаты</h2><ul class="certifications__list grid grid-cols-3 md-grid-cols-2 xs-grid-cols-1 gap-24"><li class="certifications__item card card--dark"><div class="item"><h3 class="card__title">Диплом психолога</h3><p class="card__text">Высшее образование в области психологии</p><a class="btn btn-primary" href="#">Подробнее</a></div></li><li class="certifications__item card card--dark"><div class="item"><h3 class="card__title">Сертификат по психотерапии</h3><p class="card__text">Специализация в когнитивно-поведенческой терапии</p><a class="btn btn-primary" href="#">Подробнее</a></div></li><li class="certifications__item card card--dark"><div class="item"><h3 class="card__title">Повышение квалификации</h3><p class="card__text">Курсы по работе с тревожными расстройствами и стрессом</p><a class="btn btn-primary" href="#">Подробнее</a></div></li></ul></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Сертификаты и образование психолога",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Диплом психолога",
+          "description": "Высшее образование в области психологии",
+          "url": "#"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Сертификат по психотерапии",
+          "description": "Специализация в когнитивно-поведенческой терапии",
+          "url": "#"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Повышение квалификации",
+          "description": "Курсы по работе с тревожными расстройствами и стрессом",
+          "url": "#"
+        }
+      }
+    ]
+  }</script><section id="pricing" class="pricing-section section section-light"><div class="container"><h2 class="pricing__heading h2 text-center">Мои услуги</h2><div class="pricing__cards grid grid-cols-3 md-grid-cols-2 xs-grid-cols-1 gap-24"><article class="pricing__card"><div class="pricing__title-wrapper"><h3 class="h3">Базовый</h3></div><p class="pricing__description">Для первых шагов, пробных консультаций и онлайн встреч.</p><dl class="pricing__price"><dt>Цена:</dt><dd><span>₽</span> <span>1 900</span></dd></dl><ul class="pricing__features"><li class="pricing__features-item">3 консультации (онлайн или оффлайн)</li><li class="pricing__features-item">Поддержка в мессенджере между сессиями</li><li class="pricing__features-item">Персональные рекомендации</li></ul><a href="/signup?plan=basic" class="btn btn-primary pricing__button">Выбрать</a></article><article class="pricing__card pricing__card--featured"><div class="pricing__title-wrapper"><h3 class="h3">Продвинутый</h3></div><p class="pricing__description">Для регулярной работы и глубокой проработки запросов.</p><dl class="pricing__price"><dt>Цена:</dt><dd><span>₽</span> <span>5 900</span></dd></dl><ul class="pricing__features"><li class="pricing__features-item">8 консультаций (онлайн или оффлайн)</li><li class="pricing__features-item">Поддержка 24/7 в мессенджере</li><li class="pricing__features-item">Работа с тревогой, стрессом и эмоциональной нагрузкой</li></ul><a href="/signup?plan=pro" class="btn btn-primary pricing__button">Выбрать</a></article><article class="pricing__card"><div class="pricing__title-wrapper"><h3 class="h3">Семейный</h3></div><p class="pricing__description">Для пар, семейных или корпоративных консультаций.</p><dl class="pricing__price"><dt>Цена:</dt><dd><span>₽</span> <span>9 900</span></dd></dl><ul class="pricing__features"><li class="pricing__features-item">Неограниченное количество консультаций в месяц</li><li class="pricing__features-item">Семейные и парные сессии</li><li class="pricing__features-item">Персональный план психологического развития</li></ul><a href="/signup?plan=enterprise" class="btn btn-primary pricing__button">Выбрать</a></article></div></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Прайс-лист на услуги психолога",
+    "numberOfItems": 3,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "Базовый",
+          "description": "Для первых шагов, пробных консультаций и онлайн встреч.",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "RUB",
+            "price": "1900",
+            "availability": "https://schema.org/InStock",
+            "url": "/signup?plan=basic"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "name": "Продвинутый",
+          "description": "Для регулярной работы и глубокой проработки запросов.",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "RUB",
+            "price": "5900",
+            "availability": "https://schema.org/InStock",
+            "url": "/signup?plan=pro"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Product",
+          "name": "Семейный",
+          "description": "Для пар, семейных или корпоративных консультаций.",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "RUB",
+            "price": "9900",
+            "availability": "https://schema.org/InStock",
+            "url": "/signup?plan=enterprise"
+          }
+        }
+      }
+    ]
+  }</script><section class="section section-black faq" aria-labelledby="faq-heading"><div class="container"><h2 id="faq-heading" class="faq__heading h2 text-center">Часто задаваемые вопросы</h2><div class="faq__list"><div class="faq__item"><details class="faq__details"><summary class="faq__summary">Как заказать услугу на сайте?</summary><div class="faq__answer"><p>Чтобы заказать услугу, нажмите на кнопку «Выбрать» в нужном пакете (онлайн или оффлайн), заполните форму регистрации и отправьте заявку. Мы свяжемся с вами в течение 24 часов для подтверждения встречи.</p></div></details></div><div class="faq__item"><details class="faq__details"><summary class="faq__summary">Сколько длится одна консультация?</summary><div class="faq__answer"><p>Одна сессия длится примерно 50 минут. Вы можете выбрать формат онлайн или оффлайн в зависимости от вашего удобства.</p></div></details></div><div class="faq__item"><details class="faq__details"><summary class="faq__summary">Какой пакет консультаций выбрать?</summary><div class="faq__answer"><p>Выбор пакета зависит от ваших целей и потребностей. Для первого знакомства подойдет базовый пакет (3 сессии), для регулярной работы — продвинутый пакет (8 сессий), а для семейных или корпоративных консультаций — семейный пакет с неограниченным количеством сессий. Все пакеты доступны как онлайн, так и оффлайн.</p></div></details></div><div class="faq__item"><details class="faq__details"><summary class="faq__summary">Можно ли перенести или отменить сессию?</summary><div class="faq__answer"><p>Да, вы можете перенести или отменить сессию, уведомив меня за 24 часа. Это касается как онлайн, так и оффлайн встреч.</p></div></details></div></div></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Как заказать услугу на сайте?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Чтобы заказать услугу, нажмите на кнопку «Выбрать» в нужном пакете (онлайн или оффлайн), заполните форму регистрации и отправьте заявку. Мы свяжемся с вами в течение 24 часов для подтверждения встречи."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Сколько длится одна консультация?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Одна сессия длится примерно 50 минут. Вы можете выбрать формат онлайн или оффлайн в зависимости от вашего удобства."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Какой пакет консультаций выбрать?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Выбор пакета зависит от ваших целей и потребностей. Для первого знакомства подойдет базовый пакет (3 сессии), для регулярной работы — продвинутый пакет (8 сессий), а для семейных или корпоративных консультаций — семейный пакет с неограниченным количеством сессий. Все пакеты доступны как онлайн, так и оффлайн."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Можно ли перенести или отменить сессию?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да, вы можете перенести или отменить сессию, уведомив меня за 24 часа. Это касается как онлайн, так и оффлайн встреч."
+        }
+      }
+    ]
+  }</script><section class="cta section section-light" aria-labelledby="cta-heading"><div class="container"><div class="cta__content"><h2 id="cta-heading" class="cta__heading h2">Готовы к переменам?</h2><p class="cta__description">Запишитесь на первую консультацию — онлайн или оффлайн, чтобы найти ответы и начать свой путь к гармонии. Вы можете выбрать базовый пакет из 3 сессий или сразу полный пакет регулярных встреч.</p><a href="https://t.me/yourchannel" class="cta__button btn btn-primary" role="button" aria-label="Записаться на консультацию через Telegram">Записаться на консультацию</a></div></div></section><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Готовы к переменам?",
+    "description": "Запишитесь на первую консультацию — онлайн или оффлайн, чтобы найти ответы и начать свой путь к гармонии. Вы можете выбрать базовый пакет из 3 сессий или сразу полный пакет регулярных встреч.",
+    "provider": {
+      "@type": "Person",
+      "name": "Имя Психолога"
+    },
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "name": "Запись на консультацию психолога",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://t.me/yourchannel"
+      }
+    }
+  }</script></main><footer class="footer"><div class="container"><div class="footer__content"><div class="footer__info"><p>ИП Олег</p><span>УНП 1111111111</span><address><span>Руссиянова 18-102,</span> <span>220000,<br></span><span>Минск,</span> <span>Минский Район</span></address><a href="tel:+375291234567">+375 (29) 123-45-67</a> <a href="mailto:info@example.com">info@example.com</a></div><nav class="footer__nav" aria-label="Основная навигация в футере"><h3 class="footer__nav-heading">Компания</h3><ul><li><a href="/about">О нас</a></li><li><a href="/services">Услуги</a></li><li><a href="/contact">Контакты</a></li><li><a href="/privacy">Политика</a></li></ul></nav><nav class="footer__nav" aria-label="Дополнительная навигация в футере"><h3 class="footer__nav-heading">Помощь</h3><ul><li><a href="/faq">FAQ</a></li><li><a href="/support">Поддержка</a></li><li><a href="/terms">Условия</a></li></ul></nav><div class="footer__social-wrapper"><h3 class="footer__nav-heading">Следите за нами</h3><ul class="footer__social"><li><a href="https://t.me/example" target="_blank" rel="noopener">Telegram</a></li><li><a href="https://www.facebook.com/example" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.instagram.com/example" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://twitter.com/example" target="_blank" rel="noopener">Twitter</a></li></ul></div></div><div class="footer__copy text-center"><small>© <span>Все права защищены</span>, 2025</small></div></div></footer><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ИП Олег",
+    "taxID": "УНП 1111111111",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Руссиянова 18-102",
+      "addressLocality": "Минск",
+      "addressRegion": "Минский Район",
+      "postalCode": "220000",
+      "addressCountry": "BY"
+    },
+    "telephone": "+375291234567",
+    "email": "info@example.com",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "55.7558",
+      "longitude": "37.6173"
+    },
+    "sameAs": [
+      "https://t.me/example",
+      "https://www.facebook.com/example",
+      "https://www.instagram.com/example",
+      "https://twitter.com/example"
+    ]
+  }</script></div></body></html>
